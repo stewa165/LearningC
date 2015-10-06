@@ -1,0 +1,7 @@
+[user]
+	name = Natalia Stewart
+	email = stewa165@mail.chapman.edu
+[core]
+	editor = nano
+[push]
+	default = simple

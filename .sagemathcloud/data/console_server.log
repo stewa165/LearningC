@@ -1,0 +1,9 @@
+Trace
+    at exports.defaults (/projects/c255cca6-c7e0-482d-aa8b-6b5ba7dbfd2d/.sagemathcloud/node_modules/misc.js:200:19)
+    at start_session (/projects/c255cca6-c7e0-482d-aa8b-6b5ba7dbfd2d/.sagemathcloud/node_modules/console_server.js:64:12)
+    at handle_client (/projects/c255cca6-c7e0-482d-aa8b-6b5ba7dbfd2d/.sagemathcloud/node_modules/console_server.js:102:18)
+    at Socket.exports.start_server.start_server (/projects/c255cca6-c7e0-482d-aa8b-6b5ba7dbfd2d/.sagemathcloud/node_modules/console_server.js:153:18)
+    at Socket.EventEmitter.emit (events.js:99:17)
+    at Socket.exports.enable_mesg.socket._listen_for_mesg (/projects/c255cca6-c7e0-482d-aa8b-6b5ba7dbfd2d/.sagemathcloud/node_modules/misc_node.js:89:22)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at TCP.onread (net.js:397:14)
