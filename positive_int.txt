@@ -1,0 +1,17 @@
+positive integers are stored using:
+
+short int - 2 bytes, 16 bits
+int - 4 bytes, 32 bits
+unsigned int - 4 bytes, 32 bits
+long int - 8 bytes, 64 bits
+
+from right to left:
+2^0, 2^1, 2^2, etc.
+     1 tells us to add that power; 0 tells us to skip it
+     Example:
+	5 = 0000101 = 2^0 + 2^2 = 1 + 4 = 5
+
+more bits = more zero's to the left
+
+When the positive value exceeds the number of bits used to store the value, it will produce the highest value capable of being stored with those bits.
+If possible, use a different type (long vs. short or int) to store more of the value.

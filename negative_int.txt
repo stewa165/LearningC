@@ -1,0 +1,12 @@
+negative integers are stored using:
+
+short int - 2 bytes, 16 bits
+int - 4 bytes, 32 bits
+unsigned int - 4 bytes, 32 bits
+long int - 8 bytes, 64 bits
+
+if the left-most value is a 1 --> negative value!!
+if zero --> positive value
+
+to find the value, take bit-string, subtract 1, then invert the zero's and one's
+   Example: -5 = 11111011 --> subtract 1 --> 11111010 --> invert zero's and one's --> 00000101 = 5!  We know it's negative because the left-most value is 1
