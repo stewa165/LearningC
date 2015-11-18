@@ -1,8 +1,8 @@
-all: simplemath
+all: fibonacci
 
 run: all
-	echo "Running: simplemath"
-	./simplemath
+	echo "Running: fibonacci"
+	./fibonacci
 
 clean:
-	rm -f simplemath simplemath.o
+	rm -f fibonacci fibonacci.o
